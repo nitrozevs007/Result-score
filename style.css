@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+.wrapper input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.wrapper button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.wrapper div {
+    background-color: gainsboro;
+    width: 100%;
+    padding: 4px 0;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
